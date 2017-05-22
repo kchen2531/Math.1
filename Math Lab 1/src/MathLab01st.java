@@ -121,7 +121,7 @@ class Geometry
 	}
 	public static double rectanglePerimeter (double l, double w)                       
 	{ 
-	    return (l + w) * 2 ; 
+	    return ( (double)l + w) * 2 ; 
 	}
 	public static double circumference (double r)                      
 	{ 
